@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    margin-bottom: 10rem;
+
+    &__logo {
+
+        @include respond(phone) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__menu {
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 5rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        a {
+            font-size: 2.3rem;
+        }
+    }
+
+    @include respond(phone) {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+}

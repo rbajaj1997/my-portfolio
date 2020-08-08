@@ -1,0 +1,38 @@
+// Global Reset
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; // 1 rem -> 10px
+
+    @include respond(small-desktop) {
+        font-size: 56.25%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+}
+
+body {
+    background-color: #f6f9fc;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 15rem;
+    //border: 2px solid black;
+    border-width: inherit;
+
+    @include respond(small-desktop) {
+        padding: 0 12rem;
+    }
+
+    @include respond(phone){
+        padding: 0 6rem;
+    }
+
+    @include respond(small-phone){
+        padding: 0 4rem;
+    }
+}
