@@ -4,9 +4,9 @@ import projects from '../content/projects';
 
 export default function Projects() {
     return (
-        <section class="project-container">
+        <section className="project-container">
             {projects.map(project => {
-                return <Project details={project} />
+                return <Project details={project} key={project.title} />
             })}
         </section>
     );

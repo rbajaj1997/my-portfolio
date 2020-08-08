@@ -14,9 +14,9 @@ import github from '../img/logos/github.svg';
 
 export default function About() {
     return (
-        <section class="about-container">
-            <div class="personal-details">
-                <p class="personal-details__text">
+        <section className="about-container">
+            <div className="personal-details">
+                <p className="personal-details__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellendus expedita adipisci quae
                     molestias eos dolorem ea error accusamus fuga veniam! Id impedit provident iusto doloribus ut
                     inventore voluptas vel? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque optio
@@ -25,42 +25,42 @@ export default function About() {
                 </p>
             </div>
 
-            <div class="skills">
-                <h2 class="heading-secondary">
+            <div className="skills">
+                <h2 className="heading-secondary">
                     My Skill Set
                 </h2>
-                <div class="skills__logos">
-                    <div class="skills__logos--logo">
+                <div className="skills__logos">
+                    <div className="skills__logos--logo">
                         <img src={html} alt="html" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={css} alt="css" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={sass} alt="sass" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={javascript} alt="javascript" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={react} alt="react" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={node} alt="node" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={express} alt="express" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={mongodb} alt="mongodb" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={npm} alt="npm" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={git} alt="git" />
                     </div>
-                    <div class="skills__logos--logo">
+                    <div className="skills__logos--logo">
                         <img src={github} alt="github" />
                     </div>
                 </div>

@@ -1,16 +1,18 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from '../img/logo2.png';
 
 export default function Navbar() {
+    let location = useLocation();
     return (
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <NavLink to="/">
+        <nav className="navbar">
+            <div className="navbar__logo">
+                {location.pathname !== '/' ? <NavLink to="/">
                     <img className="logo" src={logo} alt="logo" />
-                </NavLink>
+                </NavLink> : null }
+
             </div>
-            <ul class="navbar__menu">
+            <ul className="navbar__menu">
                 <li>
                     <NavLink
                         to="/about"
