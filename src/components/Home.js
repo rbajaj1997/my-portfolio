@@ -10,7 +10,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="hero__description">
-                    Hi! I am a full-stack web developer living in Bangalore, India. Graduated from NIT Raipur. MERN
+                    Hi!<span role="img" aria-label="hello-emoji">👋🏻</span> I am a full-stack web developer living in Bangalore, India. Graduated from NIT Raipur. MERN
                     stack
                     enthusiast.
                 </div>
