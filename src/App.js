@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 function App() {
 	return (
 		<div className="container">
-			<Router>
+			<Router basename={process.env.PUBLIC_URL}>
 				<Navbar />
 				<Switch>
 					<Route path="/about" exact component={About} />
