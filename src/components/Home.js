@@ -10,7 +10,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="hero__description">
-                    Hi!<span role="img" aria-label="hello-emoji">👋🏻</span> I am a full-stack developer who likes working with <strong>Javascript</strong> libraries/ frameworks. I am romantic about learning, and web development keeps me forever a student.
+                    Hi!<span role="img" aria-label="hello-emoji">👋🏻</span> I am a full-stack developer who likes working with <strong>Javascript</strong> libraries & frameworks. I am romantic about learning, and web development keeps me forever a student.
                 </div>
             </div>
         </section>
