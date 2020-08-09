@@ -18,6 +18,23 @@
 
     &__text{
         font-size: 1.8rem;
+        color: $grey;
+        letter-spacing: 1px;
+        line-height: 3rem;
+        text-align: center;
+
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: $purple;
+            border-bottom: 1.5px solid $purple;
+            transition: all .2s;
+
+            &:hover{
+                color: lighten($purple, 8%);
+                border-bottom: 1.5px solid lighten($purple, 8%);
+            }
+        }
     }
 }
 
@@ -34,7 +51,7 @@
         &--logo{
             width: 8rem;
             height: 8rem;
-            margin: 2rem 2rem;
+            margin: 2rem 2.5rem;
         }
     }
 }

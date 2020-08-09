@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="navbar__logo">
                 {location.pathname !== '/' ? <NavLink to="/">
                     <img className="logo" src={logo} alt="logo" />
-                </NavLink> : null }
+                </NavLink> : null}
 
             </div>
             <ul className="navbar__menu">
@@ -19,7 +19,7 @@ export default function Navbar() {
                         activeClassName="active-link"
                         className="primary-link">
                         About
-							</NavLink>
+					</NavLink>
                 </li>
                 <li>
                     <NavLink
@@ -27,7 +27,7 @@ export default function Navbar() {
                         activeClassName="active-link"
                         className="primary-link">
                         Projects
-							</NavLink>
+					</NavLink>
                 </li>
                 <li>
                     <NavLink
@@ -35,7 +35,7 @@ export default function Navbar() {
                         activeClassName="active-link"
                         className="primary-link">
                         Contact
-							</NavLink>
+					</NavLink>
                 </li>
             </ul>
         </nav>

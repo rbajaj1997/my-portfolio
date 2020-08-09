@@ -67,14 +67,6 @@
 }
 
 
-.typewriter {
-    overflow: hidden;
-    border-right: .6rem solid $purple;
-    white-space: nowrap;
-    display: inline-block;
-    animation: blink-caret 1.2s step-end infinite;
-}
-
 .heading-secondary{
     font-size: 3rem;
     color: $fadedPurple;
@@ -84,22 +76,20 @@
 }
 
 .heading-tertiary{
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: $fadedPurple;
     padding: .5rem .8rem;
     font-weight: 400;
     //font-style: oblique;
 }
 
-/* The typing effect */
-@keyframes typing {
-    from {
-        width: 0
-    }
 
-    to {
-        width: 30rem
-    }
+.typewriter{
+    overflow: hidden;
+    border-right: .6rem solid $purple;
+    white-space: nowrap; 
+    display: inline-block;
+    animation: blink-caret 1.2s step-end infinite;
 }
 
 /* The typewriter cursor effect */
