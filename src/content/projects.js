@@ -1,8 +1,19 @@
 import tictactoe from '../img/tictactoe.png'
 import deconnector from '../img/devconnector.png'
 import chatapp from '../img/chatapp.png'
+import covid from '../img/covid.png';
 
 export default [
+    {
+        title: 'COVID Tracker',
+        description:
+        'A progressive web app that helps in tracking worldwide COVID cases! Supports advanced features like offline support, caching and installation (just like a native android application!). Front-end built using ReactJS and vanilla CSS. Data Source taken from disease.sh',
+        image: covid,
+        links: {
+            github: 'https://github.com/rbajaj1997/covid-tracker',
+            preview: 'https://covid.rohitbajaj.in/',
+        }
+    },
     {
         title: 'Tic Tac Toe',
         description:
