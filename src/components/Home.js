@@ -13,7 +13,7 @@ export default function Home() {
             👋🏻
           </span>{" "}
           I am a full-stack developer who likes working with{" "}
-          <strong>Javascript</strong> libraries & frameworks. I am romantic
+          <strong>JavaScript</strong> libraries & frameworks. I am romantic
           about learning, and web development keeps me forever a student.
         </div>
       </div>
